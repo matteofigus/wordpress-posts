@@ -1,6 +1,6 @@
 {
   "name": "wordpress-posts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple tool that retrieves the last posts from a wordpress blog, given the blog url",
   "author": "Matteo Figus <matteofigus@gmail.com>",
   "repository": {
