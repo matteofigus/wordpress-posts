@@ -25,4 +25,20 @@ describe('The posts retriever', function(){
     });
   });
 
+  it('should show the actual number of posts if maxItems is > posts.length', function(done) {
+    var postsToRetrieve = 1000000;
+    worpressPosts.get("http://wordpress.org/news/feed/", postsToRetrieve, function(err, res){
+      res.length.should.be.within(0, postsToRetrieve);
+      done();
+    });
+  });
+
+  it('should show the actual number of posts if maxItems is null', function(done) {
+    worpressPosts.get("http://wordpress.org/news/feed/", function(err, res){
+      should.not.exist(err);
+      should.exist(res);
+      done();
+    });
+  });
+
 });
