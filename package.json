@@ -18,7 +18,7 @@
     "xml2js": ""
   },
   "devDependencies": {
-    "should": "1.0.0",
+    "should": "",
     "mocha":""
   },
   "scripts": {
