@@ -37,7 +37,11 @@ describe('The posts retriever', function(){
     worpressPosts.get("http://wordpress.org/news/feed/", function(err, res){
       should.not.exist(err);
       should.exist(res);
-      done();
+      var postsCount = res.length;
+      worpressPosts.get("http://wordpress.org/news/feed/", postsCount, function(err, res){
+        res.length.should.be.eql(postsCount);
+        done();
+      });
     });
   });
 
