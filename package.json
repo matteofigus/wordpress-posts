@@ -1,12 +1,15 @@
 {
   "name": "wordpress-posts",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A simple tool that retrieves the last posts from a wordpress blog, given the blog url",
   "author": "Matteo Figus <matteofigus@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/matteofigus/wordpress-posts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matteofigus/wordpress-posts/issues"
   },
   "keywords": ["wordpress", "post"],
   "main":"index",
