@@ -10,6 +10,8 @@ A simple node.js tool to retrieve the posts from a wordpress blogs (through the 
 
 # Usage
 
+### get(url [, maxPosts], callback)
+
 	var wordpressPosts = require('wordpress-posts');
 	var wordpressSiteUrl = "http://wordpress.org/";
 	var posts = 4;
