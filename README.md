@@ -23,3 +23,7 @@ A simple node.js tool to retrieve the posts from a wordpress blogs (through the 
 # License
 
 MIT
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/matteofigus/wordpress-posts/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
