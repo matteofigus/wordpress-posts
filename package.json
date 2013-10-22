@@ -1,6 +1,6 @@
 {
   "name": "wordpress-posts",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A simple tool that retrieves the last posts from a wordpress blog, given the blog url",
   "author": "Matteo Figus <matteofigus@gmail.com>",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "npm": "1.1.x"
   },
   "dependencies": {
-    "xml2js": ""
+    "xml2js": "0.2.8"
   },
   "devDependencies": {
     "should": "",
